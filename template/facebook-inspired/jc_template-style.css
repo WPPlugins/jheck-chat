@@ -1,0 +1,100 @@
+.jheck_chat_main_wrapper{
+    border: 1px solid rgba(29, 49, 91, .3);
+    border-top: none;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+}
+.jheck_chat_main_wrapper .jc_message_wrapper{
+    background: #edeef1;
+}
+.jheck_chat_main_wrapper .pull-right{
+    float: right !important;
+}
+.jheck_chat_main_wrapper .pull-left{
+    float: left !important;
+}
+.jheck_chat_main_wrapper {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    max-width: 250px;
+    background: #ffffff;
+    border: 1px solid #d2d6de;
+    border-right: none;
+    border-bottom: none;
+}
+.jheck_chat_main_wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+.jheck_chat_main_wrapper .jc_header button {
+    display: block;
+    width: 100%;
+    background: #3b5998;
+    border: 1px solid #3c8dbc;
+    color: #fff;
+    border-radius: 0;
+    text-align: left;
+    border-color: #2f477a;
+    height: 26px;
+    padding-right: 3px;
+    line-height: 6px;
+
+}
+.jheck_chat_main_wrapper > div.jc_header {
+    display: block;
+}
+.jheck_chat_main_wrapper > div {
+    display: none;
+}
+.jheck_chat_main_wrapper ul li{
+    padding: 10px;
+    margin: 5px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-msg {
+    margin-bottom: 10px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-msg, .direct-chat-text {
+    display: block;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-info {
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 11px;
+}
+.jheck_chat_main_wrapper ul li .jheck_chat_profile_pic img {
+    float: left;
+    border-radius: 2px;
+    height: 28px;
+    width: 28px
+}
+.jheck_chat_main_wrapper ul li .direct-chat-text {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 8px 4px;
+    margin: 5px 0 0 50px;
+    color: #373e4d;
+    font-size: 12px;
+    line-height: 1.28;
+    word-wrap: break-word;
+    text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
+    /*background-color: #e0edff;*/
+    background-color: #fff;
+    border: 1px solid #bcc7d6;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .04);
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.jc_form_fields_wrapper button{
+    background-color: #3c8dbc !important;
+    border: 1px solid #367fa9 !important;
+    color: #fff !important;
+    padding: 5px 10px;
+}
+form#jheck_chat_form p, form#jheck_chat_loginform p{
+    font-size: 12px;
+}

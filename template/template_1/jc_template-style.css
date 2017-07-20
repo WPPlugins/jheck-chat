@@ -1,0 +1,100 @@
+.jheck_chat_main_wrapper .pull-right{
+    float: right !important;
+}
+.jheck_chat_main_wrapper .pull-left{
+    float: left !important;
+}
+.jheck_chat_main_wrapper {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    max-width: 250px;
+    background: #ffffff;
+    border: 1px solid #d2d6de;
+    border-right: none;
+    border-bottom: none;
+}
+.jheck_chat_main_wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jheck_chat_main_wrapper .jc_header button {
+    display: block;
+    width: 100%;
+    background: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    color: #fff;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0;
+}
+.jheck_chat_main_wrapper > div.jc_header {
+    display: block;
+}
+.jheck_chat_main_wrapper > div {
+    display: none;
+}
+.jheck_chat_main_wrapper ul li{
+	background: #fff;
+	padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-msg {
+    margin-bottom: 10px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-msg, .direct-chat-text {
+    display: block;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-info {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.jheck_chat_main_wrapper ul li .jheck_chat_profile_pic img {
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-text {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 10px;
+    background: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    margin: 5px 0 0 50px;
+    color: #fff;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-text:before {
+    border-width: 6px;
+    margin-top: -6px;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-text:after,
+.jheck_chat_main_wrapper ul li .direct-chat-text:before {
+    position: absolute;
+    right: 100%;
+    top: 15px;
+    border: solid transparent;
+    border-right-color: #367fa9;
+    content: ' ';
+    height: 0;
+    width: 0;
+    pointer-events: none;
+}
+.jheck_chat_main_wrapper ul li .direct-chat-text:after {
+    border-width: 5px;
+    margin-top: -7px;
+}
+
+.jc_form_fields_wrapper button{
+    background-color: #3c8dbc !important;
+    border: 1px solid #367fa9 !important;
+    color: #fff !important;
+    padding: 5px 10px;
+}

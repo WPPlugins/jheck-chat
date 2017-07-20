@@ -1,0 +1,103 @@
+/**
+ * Default styling.
+ */
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+ 
+ .jheck_chat_main_wrapper.display-chatbox{
+    max-height: calc(100vh - 50px);
+    overflow-y: auto;
+    font-family: Roboto;
+ }
+.jheck_chat_main_wrapper .jc_form_fields_wrapper {
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+.jheck_chat_main_wrapper textarea{
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;    
+    box-sizing: border-box;
+    font-family: Roboto;
+    padding: 5px;
+    font-size: 13px;
+}
+.jheck_chat_main_wrapper form input[type="text"]{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin: 2px auto 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.jheck_chat_main_wrapper a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.jheck_chat_main_wrapper .jc_message_wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+}
+form#jheck_chat_loginform {
+    display: none;
+    background: #eee;
+    border: 1px solid #777;
+    padding: 5px; 
+}
+div#jheck_chat_msg-holder {
+    font-size: 11px;
+    color: red;
+    border: 1px dashed red;
+    padding: 3px;
+    display: none;
+    margin: 5px auto;
+}
+#jheck_chat_message-counter{
+    font-size: 12px;
+}
+.jc_hidden_fields{
+    display: none;
+}
+a#jheck_chat_new_message_alert_view{
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+p#jheck_chat_enter_your_name{
+    padding: 10px 0;
+}
+.jheck_chat_main_wrapper .jc_header button{
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+form#jheck_chat_form p,
+form#jheck_chat_loginform p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+form#jheck_chat_loginform label {
+    display: block;
+    font-size: 14px;
+}
+form#jheck_chat_loginform input[type="text"],
+form#jheck_chat_loginform input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+form#jheck_chat_loginform input#jc_login_submit{
+    color: #777;
+    border: none;
+    background: #ccc;
+    padding: 5px 10px;
+}
